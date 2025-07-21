@@ -28,7 +28,7 @@ public class AtualizaCusto implements EventoProgramavelJava {
 	@Override
 	public void afterDelete(PersistenceEvent arg0) throws Exception {
 		// TODO Auto-generated method stub
-		
+		DynamicVO registro = (DynamicVO)arg0.getVo();
 	}
 
 	@Override

@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Downloads/mge-modelcore.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Downloads/jape-4.9b59.jar"/>
+	<classpathentry exported="true" kind="lib" path="/api_sankhya/sanutil.jar" sourcepath="/SankhyaUtil"/>
+	<classpathentry exported="true" kind="lib" path="O:/TECNOLOGIA DA INFORMAÇÃO/Desenvolvimento Java_Sankhya/libssankhya_javas/mge-modelcore-4.23b249.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libssankhya_javas/mgearmazem-model-4.23b249.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libssankhya_javas/mgecheckout-model-4.23b249.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libssankhya_javas/mgecom-model-4.23b249.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libssankhya_javas/mgecontab-model-4.23b249.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libssankhya_javas/mgecot-model-4.23b249.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libssankhya_javas/mgectbz-model-4.23b249.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libssankhya_javas/mgefgv-model-4.23b249.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libssankhya_javas/mgefin-model-4.23b249.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libssankhya_javas/mgegi-model-4.23b249.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libssankhya_javas/mgeimobilizado-model-4.23b249.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libssankhya_javas/mgeinv-model-4.23b249.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libssankhya_javas/mgeliv-model-4.23b249.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libssankhya_javas/mge-modelcore-4.23b249.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libssankhya_javas/mgepes-model-4.23b249.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libssankhya_javas/mgepesq-model-4.23b249.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libssankhya_javas/mgeprod-model-4.23b249.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libssankhya_javas/mgeserv-model-4.23b249.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libssankhya_javas/mgewms-model-4.23b249.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libssankhya_javas/mgeworkflow-model-4.23b249.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libssankhya_javas/msd-model-4.23b249.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libssankhya_javas/timimob-model-4.23b249.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Downloads/SankhyaW-extensions (6).jar"/>
+	<classpathentry exported="true" kind="lib" path="/api_sankhya/sanws.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/activation-1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/activiti-bpmn-converter-5.17.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/activiti-bpmn-model-5.17.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/activiti-cxf-5.17.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/activiti-engine-5.17.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/activiti-image-generator-5.17.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/activiti-process-validation-5.17.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/annotations-23.0.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/antlr.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/antlr4-4.8.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/antlr4-runtime-4.8.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/axis.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/backport-util-concurrent-3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/barbecue-1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/barcode4j-2.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/batik-anim.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/batik-awt-util.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/batik-bridge.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/batik-css.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/batik-dom.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/batik-ext.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/batik-gvt.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/batik-parser.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/batik-script.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/batik-svg-dom.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/batik-svggen.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/batik-util.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/batik-xml.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/bcmail-jdk14-1.38.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/bcprov-jdk14-1.38.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/bctsp-jdk14-1.38.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/bia-lucene-1.2.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/brazilutils-0.1.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/bsh-1.3.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/camunda-bpmn-model-7.9.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/camunda-cmmn-model-7.9.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/camunda-commons-logging-1.5.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/camunda-commons-typed-values-1.5.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/camunda-commons-utils-1.5.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/camunda-dmn-model-7.9.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/camunda-engine-7.9.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/camunda-engine-dmn-7.9.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/camunda-engine-feel-api-7.9.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/camunda-engine-feel-juel-7.9.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/camunda-xml-model-7.9.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/certillion.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/cindy.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/commons-beanutils.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/commons-codec-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/commons-collections.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/commons-csv-1.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/commons-digester-1.7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/commons-discovery-0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/commons-fileupload-1.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/commons-httpclient-3.0.1-snk.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/commons-io-2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/commons-jexl-2.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/commons-lang-2.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/commons-lang3-3.3.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/commons-math3-3.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/commons-net-ftp-3.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/commons-validator.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/criptdash.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/cryptacular-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/cuckoo.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/dwf-4.23b249.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/dwr.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/ehcache-1.6.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/filterengine-4.23b249.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/formulaone.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/gdata-calendar-2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/gdata-calendar-meta-2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/gdata-client-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/gdata-client-meta-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/gdata-core-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/gdata-media-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/gha-sankhya.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/google-api-client-1.30.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/google-api-client-appengine-1.30.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/google-api-client-gson-1.30.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/google-api-client-jackson2-1.30.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/google-api-client-java6-1.30.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/google-api-client-servlet-1.30.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/google-api-services-calendar-v3-rev411-1.25.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/google-http-client-1.30.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/google-http-client-appengine-1.30.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/google-http-client-gson-1.30.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/google-http-client-jackson2-1.30.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/google-oauth-client-1.30.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/google-oauth-client-appengine-1.30.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/google-oauth-client-java6-1.30.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/google-oauth-client-servlet-1.30.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/graphql-java-17.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/graphql-java-annotations-9.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/graphql-java-extended-scalars-18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/graphql-java-kickstart-12.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/graphql-java-servlet-12.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/groovy-all-2.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/grpc-context-1.19.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/gson-2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/guava-23.4-android.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/gxt-3.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/h2-1.4.199.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/hamcrest-all-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/hazelcast-all-4.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/htmlcleaner-2.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/httpclient-4.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/httpcore-4.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/HubClient.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/ical4j-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/itext-1.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/jackson-annotations-2.13.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/jackson-core-2.13.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/jackson-databind-2.13.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/jackson-datatype-jdk8-2.13.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/jakarta-oro.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/jape-4.23b249.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/jasperreports-1.1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/jasperreports-chart-themes-4.0.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/jasperreports-extensions-3.5.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/jasperreports-fonts-4.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/java-dataloader-3.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/javamelody-patch.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/javassist-3.28.0-GA.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/java-support-7.3.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/javax.mail-1.6.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/javax.websocket-api-1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/jaxb-api.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/jaxen-core.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/jaxen-jdom.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/jaxrpc.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/JBarcodeBean-1.1.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/jboleto-4.23b249.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/jbossaddons-4.23b249.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/jboss-jaxrpc.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/jcommon-1.0.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/jdo2-api-2.3-eb.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/jdom.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/jdom-jaxen-jboss-4.23b249.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/jetty-6.1.26.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/jetty-util-6.1.26.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/jfreechart-1.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/jjwt-api-0.11.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/jjwt-impl-0.11.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/jjwt-jackson-0.11.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/jml-1.0b3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/jmx-jsr932-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/jna-winonly.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/joda-time-2.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/jrobin-1.5.9.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/js-1.7.7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/jsch-0.1.55.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/json-20140107.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/jsoup-1.11.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/jsqlparser.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/jsr305.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/jstl.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/jts.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/jxl-2.6.10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/jxls-core-1.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/jxls-reader-1.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/logback-classic-1.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/logback-core-1.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/lucene-analyzers-common-5.5.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/lucene-core-5.5.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/lucene-queries-5.5.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/lucene-queryparser-5.5.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/metrics-core-3.1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/mge-modulemgr-4.23b249.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/mge-param-4.23b249.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/mge-schedule-4.23b249.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/mge-table-4.23b249.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/mockito-core-1.10.19.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/modelmapper-3.0.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/mybatis-3.2.7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/objenesis-2.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/opencensus-api-0.21.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/opencensus-contrib-http-util-0.21.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/opensaml-core-3.3.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/opensaml-messaging-api-3.3.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/opensaml-profile-api-3.3.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/opensaml-saml-api-3.3.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/opensaml-saml-impl-3.3.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/opensaml-security-api-3.3.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/opensaml-security-impl-3.3.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/opensaml-soap-api-3.3.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/opensaml-soap-impl-3.3.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/opensaml-storage-api-3.3.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/opensaml-xmlsec-api-3.3.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/opensaml-xmlsec-impl-3.3.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/org.apache.oltu.oauth2.client-1.0.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/org.apache.oltu.oauth2.common-1.0.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/org.moxieapps.gwt.highcharts-1.7.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/pdfbox.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/PDFRenderer-0.9.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/plugin.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/poi-3.9-20121203.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/poi-ooxml-3.9-20121203.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/poi-ooxml-schemas-3.9-20121203.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/print-service-base.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/print-service-connector.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/protobuf-java-2.4.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/quartz-2.2.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/re2j-1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/reactive-streams-1.0.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/reflectdao-4.23b249.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/reflections-0.10.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/RXTXcomm.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/saaj.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/sancluster.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/sancrypt-4.23b249.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/san-jasper-client-4.23b249.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/sank-controller-util-4.23b249.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/sankhya-commons-4.23b249.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/sankhya-feature-manager-1.9.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/sankhya-fog.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/sankhya-graphql.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/sanmodule-1.2.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/sannfe-4.23b249.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/sanSMS-client.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/sanutil-4.23b249.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/sanws-4.23b249.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/sas.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/sascomm-4.23b249.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/saxpath.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/skw-environment.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/slf4j-api-1.7.36.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/smslib-2.1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/snk-pix-client-2.3.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/SnkTutorialDoclet.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/soapsigner.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/spring.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/standard.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/struts.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/struts-el.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/textreport.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/Thumbnailator-0.3.10.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/tika-core-1.16.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/tinyejb-1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/uibinder-bridge-2.4.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/wsdl4j-1.5.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/wss4j-1.6.9.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/wstx-asl-3.2.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/xml-apis-ext-1.3.04.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/xmlbeans-2.3.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/xmlsec-2.0.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/xpp3_min-1.1.4c.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/xstream.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/zip4j-1.3.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/zxing-2.3.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/libs/lib/zxing-javase-2.3.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/sankhyaw_4.27b166/lib/jape-4.27b166.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/sankhyaw_4.27b166/ejb/mge-modelcore-4.27b166.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Downloads/adicional_jars/javax.ejb.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Desktop/sanws-4.27b166.jar"/>
+	<classpathentry exported="true" kind="lib" path="/api_outros/servlet.jar"/>
+	<classpathentry kind="lib" path="C:/Users/alerrandro.barreto/Downloads/joda-time-2.0.jar.zip"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Downloads/joda-time-2.0.jar/joda-time-2.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Downloads/okhttp-3.0.0-RC1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/alerrandro.barreto/Downloads/okhttp-5.0.0-alpha.14.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

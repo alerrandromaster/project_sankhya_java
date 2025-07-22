@@ -109,13 +109,17 @@ public class SearchDados implements EventoProgramavelJava{
 		 String ALMOX = "";
 		 String ATIVO = registro.asString("ATIVO");
 		 String Resu = "";
+		 String TemNota = "";
 		 BigDecimal CODPROD = registro.asBigDecimal("CODPROD");
+		 BigDecimal CODGRUPOPROD = new BigDecimal(0);
+		 CODGRUPOPROD = registro.asBigDecimal("CODGRUPOPROD");
 		 System.out.println("AD_ALMOX é"+ALMOX);
 		 System.out.println("ATIVO é"+ATIVO);
 		 System.out.println("CODPROD é "+CODPROD);
 		 ALMOX = registro.asString("AD_ALMOX") == null ? "" : registro.asString("AD_ALMOX");
 		Resu = ProcuraLiberacao(CODPROD);
-		 if (ATIVO.contains("S") && ALMOX.isEmpty()) {
+		TemNota = ProcuraNota(CODPROD);
+		 if (ATIVO.contains("S") && ALMOX.isEmpty() && TemNota.equals("LIBERADO")) {
 			 exibirMensagem(CODPROD);
 		 }
 		 System.out.println("O Resultado é"+Resu);
@@ -169,6 +173,36 @@ public class SearchDados implements EventoProgramavelJava{
 
 	 }
 	 
+	 
+	 private String ProcuraNota(BigDecimal CODPROD) throws Exception {
+		 EntityFacade dwfEntityFacade = EntityFacadeFactory.getDWFFacade();
+		 JdbcWrapper jdbc = dwfEntityFacade.getJdbcWrapper();
+		 StringBuilder sqlite1 = new StringBuilder();
+		    NativeSql nativeSql = new NativeSql(jdbc);
+		    BigDecimal VLRATUAL = new BigDecimal(0);
+		    String Resultado = "" ;
+		    sqlite1.append(" select COUNT(*) AS CONTAGEM");
+			sqlite1.append("  from TGFCAB C INNER JOIN TGFITE I ON C.NUNOTA = I.NUNOTA ");
+			sqlite1.append(" WHERE  C.TIPMOV = 'V' and C.STATUSNOTA = 'L' AND I.CODPROD =" + CODPROD);
+			System.out.println("A QUERY é:"+sqlite1.toString());
+		    ResultSet query = nativeSql.executeQuery(sqlite1.toString());
+		    if(query.next())
+				    {
+		    	VLRATUAL=query.getBigDecimal("CONTAGEM");
+		    	System.out.println ("O VALOR DO COUNT é :"+VLRATUAL);
+		    	if (VLRATUAL.compareTo(BigDecimal.ZERO) > 0) {
+		    	    System.out.println("Valores iguais");
+		    	    Resultado = "LIBERADO";
+		    	}else
+		    	{
+		    		Resultado = "NAO";
+		    	}
+		    	 
+				    }
+		    query.close();
+			return Resultado;
+
+	 }
 	 
 	 
 	@Override

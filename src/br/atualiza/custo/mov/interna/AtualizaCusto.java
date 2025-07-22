@@ -53,7 +53,7 @@ public class AtualizaCusto implements EventoProgramavelJava {
 		
 		
 		try {
-			if (valoresValidos.contains(MOV))
+			if (valoresValidos.contains(MOV)) 
 			{
 				
 		AtualizarCus(NUNOTA,CODPROD,Custo,Qtd);

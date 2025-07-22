@@ -119,7 +119,8 @@ public class SearchDados implements EventoProgramavelJava{
 		 ALMOX = registro.asString("AD_ALMOX") == null ? "" : registro.asString("AD_ALMOX");
 		Resu = ProcuraLiberacao(CODPROD);
 		TemNota = ProcuraNota(CODPROD);
-		 if (ATIVO.contains("S") && ALMOX.isEmpty() && TemNota.equals("LIBERADO")) {
+		System.out.println("A variavel TemNota é:"+TemNota);
+		 if (ATIVO.contains("S") && ALMOX.isEmpty() && TemNota.equals("NAO")) {
 			 exibirMensagem(CODPROD);
 		 }
 		 System.out.println("O Resultado é"+Resu);

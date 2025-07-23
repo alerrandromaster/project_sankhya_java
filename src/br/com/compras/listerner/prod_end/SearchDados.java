@@ -41,7 +41,9 @@ public class SearchDados implements EventoProgramavelJava{
 	
 	
 	private String procuraSepar(String ALMOX, String COM_IND) throws Exception {
-	    StringBuilder sqlite1 = new StringBuilder();
+		EntityFacade dwfEntityFacade = EntityFacadeFactory.getDWFFacade();
+		JdbcWrapper jdbc = this.dwfEntityFacade.getJdbcWrapper();
+		StringBuilder sqlite1 = new StringBuilder();
 	    NativeSql nativeSql = new NativeSql(jdbc);
 	    String Area = "";
 		sqlite1.append(" select top 1 en.CODEND as Eend,sp.CODLOCAL as Local ");
@@ -64,6 +66,8 @@ public class SearchDados implements EventoProgramavelJava{
 	@Override
 	public void afterInsert(PersistenceEvent ctx) throws Exception {
 		DynamicVO registro = (DynamicVO)ctx.getVo();
+		EntityFacade dwfEntityFacade = EntityFacadeFactory.getDWFFacade();
+		JdbcWrapper jdbc = this.dwfEntityFacade.getJdbcWrapper();
 		BigDecimal CODPROD = registro.asBigDecimal("CODPROD");
 		String ALMOX = registro.asString("AD_ALMOX") == null ? "" : registro.asString("AD_ALMOX");
 		String USOPROD = registro.asString("USOPROD");

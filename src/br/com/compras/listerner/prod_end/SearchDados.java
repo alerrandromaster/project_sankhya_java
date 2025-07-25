@@ -72,6 +72,12 @@ public class SearchDados implements EventoProgramavelJava{
 		String ALMOX = registro.asString("AD_ALMOX") == null ? "" : registro.asString("AD_ALMOX");
 		String USOPROD = registro.asString("USOPROD");
 		String End = "";
+		 String ATIVO = registro.asString("ATIVO");
+		
+		
+		 if (ALMOX.isEmpty()) {
+			 exibirMensagem(CODPROD);
+		 }
 		
 		if (USOPROD.contains("M"))
 		{
@@ -109,7 +115,7 @@ public class SearchDados implements EventoProgramavelJava{
 	@Override
 	public void afterUpdate(PersistenceEvent arg0) throws Exception {
 		// TODO Auto-generated method stub
-		 DynamicVO registro = (DynamicVO)arg0.getVo();
+		/* DynamicVO registro = (DynamicVO)arg0.getVo();
 		 String ALMOX = "";
 		 String ATIVO = registro.asString("ATIVO");
 		 String Resu = "";
@@ -133,7 +139,7 @@ public class SearchDados implements EventoProgramavelJava{
 			 exibirMensagem2(CODPROD);
 		}
 		 
-		 
+		 */
 		     
 	}
 
@@ -144,7 +150,7 @@ public class SearchDados implements EventoProgramavelJava{
 		    throw new IOException("O Produto Pendente de Liberação:"+codprod);
 		  }
 	
-	 
+	/* 
 	 private String ProcuraLiberacao(BigDecimal CODPROD) throws Exception {
 		 EntityFacade dwfEntityFacade = EntityFacadeFactory.getDWFFacade();
 		    JdbcWrapper jdbc = dwfEntityFacade.getJdbcWrapper();
@@ -176,10 +182,10 @@ public class SearchDados implements EventoProgramavelJava{
 		    query.close();
 			return Resultado;
 
-	 }
+	 }*/
 	 
 	 
-	 private String ProcuraNota(BigDecimal CODPROD) throws Exception {
+	/* private String ProcuraNota(BigDecimal CODPROD) throws Exception {
 		 EntityFacade dwfEntityFacade = EntityFacadeFactory.getDWFFacade();
 		 JdbcWrapper jdbc = dwfEntityFacade.getJdbcWrapper();
 		 StringBuilder sqlite1 = new StringBuilder();
@@ -207,7 +213,7 @@ public class SearchDados implements EventoProgramavelJava{
 		    query.close();
 			return Resultado;
 
-	 }
+	 }*/
 	 
 	 
 	@Override

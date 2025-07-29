@@ -72,12 +72,12 @@ public class SearchDados implements EventoProgramavelJava{
 		String ALMOX = registro.asString("AD_ALMOX") == null ? "" : registro.asString("AD_ALMOX");
 		String USOPROD = registro.asString("USOPROD");
 		String End = "";
-		 String ATIVO = registro.asString("ATIVO");
+		 //String ATIVO = registro.asString("ATIVO");
 		
 		
-		 if (ALMOX.isEmpty()) {
+		/* if (ALMOX.isEmpty()) {
 			 exibirMensagem(CODPROD);
-		 }
+		 }*/
 		
 		if (USOPROD.contains("M"))
 		{
@@ -115,31 +115,31 @@ public class SearchDados implements EventoProgramavelJava{
 	@Override
 	public void afterUpdate(PersistenceEvent arg0) throws Exception {
 		// TODO Auto-generated method stub
-		/* DynamicVO registro = (DynamicVO)arg0.getVo();
+		 DynamicVO registro = (DynamicVO)arg0.getVo();
 		 String ALMOX = "";
 		 String ATIVO = registro.asString("ATIVO");
-		 String Resu = "";
-		 String TemNota = "";
+		 //String Resu = "";
+		 //String TemNota = "";
 		 BigDecimal CODPROD = registro.asBigDecimal("CODPROD");
-		 BigDecimal CODGRUPOPROD = new BigDecimal(0);
-		 CODGRUPOPROD = registro.asBigDecimal("CODGRUPOPROD");
+		// BigDecimal CODGRUPOPROD = new BigDecimal(0);
+		// CODGRUPOPROD = registro.asBigDecimal("CODGRUPOPROD");
 		 System.out.println("AD_ALMOX é"+ALMOX);
 		 System.out.println("ATIVO é"+ATIVO);
 		 System.out.println("CODPROD é "+CODPROD);
 		 ALMOX = registro.asString("AD_ALMOX") == null ? "" : registro.asString("AD_ALMOX");
-		Resu = ProcuraLiberacao(CODPROD);
-		TemNota = ProcuraNota(CODPROD);
-		System.out.println("A variavel TemNota é:"+TemNota);
-		 if (ATIVO.contains("S") && ALMOX.isEmpty() && TemNota.equals("NAO")) {
+		//Resu = ProcuraLiberacao(CODPROD);
+		//TemNota = ProcuraNota(CODPROD);
+		//System.out.println("A variavel TemNota é:"+TemNota);
+		 if (ATIVO.contains("N") && ALMOX.isEmpty()) {
 			 exibirMensagem(CODPROD);
 		 }
-		 System.out.println("O Resultado é"+Resu);
-		 if (ATIVO.contains("S") && Resu.equals("NAO"))
-				 {
-			 exibirMensagem2(CODPROD);
-		}
+		 //System.out.println("O Resultado é"+Resu);
+		 //if (ATIVO.contains("S") && Resu.equals("NAO"))
+			//	 {
+		//	 exibirMensagem2(CODPROD);
+		//}
 		 
-		 */
+		 
 		     
 	}
 

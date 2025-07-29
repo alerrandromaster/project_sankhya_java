@@ -48,7 +48,8 @@ public class AtualizaCusto implements EventoProgramavelJava {
 			    new BigDecimal("8003"),
 			    new BigDecimal("7995"),
 			    new BigDecimal("9401"),
-			    new BigDecimal("9403")
+			    new BigDecimal("9403"),
+			    new BigDecimal("7999")
 			));
 		
 		

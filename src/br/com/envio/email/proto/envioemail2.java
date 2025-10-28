@@ -42,15 +42,40 @@ public class envioemail2 implements AcaoRotinaJava {
 		// TODO Auto-generated method stub
 		Registro registros = arg0.getLinhas()[0];
 		System.out.println("BOTAO ENVIAR EMAIL");
-		 String seuEmail = "alerrandro.barreto@centrodoaluminio.com.br";
+		 String seuEmail = "alerrandro.barreto@centrodoaluminio.com.br,felipe.souza@centrodoaluminio.com.br,fiscal4@centrodoaluminio.com.br,\r\n"
+		 		+ "financeiro1@centrodoaluminio.com.br,\r\n"
+		 		+ "margreis.pinheiro@centrodoaluminio.com.br,\r\n"
+		 		+ "thayla.souza@centrodoaluminio.com.br,\r\n"
+		 		+ "fiscal1@centrodoaluminio.com.br,\r\n"
+		 		+ "bruno.vasconcelos@centrodoaluminio.com.br,\r\n"
+		 		+ "ronan.morais@centrodoaluminio.com.br,\r\n"
+		 		+ "juliana.cabral@centrodoaluminio.com.br,\r\n"
+		 		+ "thalia.lima@centrodoaluminio.com.br,\r\n"
+		 		+ "rayssa.sena@centrodoaluminio.com.br";
 	        
 	        Timestamp hoje = TimeUtils.clearTime(TimeUtils.getNow());
+	        String NumeroUnicoad = "";
+	        Object param = arg0.getParam("NUMEROUNICO");
+	        if (param != null) {
+	            NumeroUnicoad = param.toString(); // garante que não vem só espaço
+	        }
+	      
+	        String CONTA = arg0.getParam("CONTA").toString();
+	        String extraInfo = (NumeroUnicoad != null && !NumeroUnicoad.trim().isEmpty()) 
+	                ? ", " + NumeroUnicoad 
+	                : "";
+	        System.out.println("Numeros unicos adicionais são"+NumeroUnicoad);
+	        System.out.println("a Conta é:"+CONTA);
+	        String Obs = (String) registros.getCampo("OBSERVACAO");
+	        BigDecimal nunota = (BigDecimal) registros.getCampo("NUNOTA");
+	        String subjetct = "Número único: " + nunota + extraInfo + "\n\n" +
+	        		"Prezados,<br><br>" +
+	                  "Solicitamos o lançamento referente " + Obs + "<br><br>" +
+	                  "Att,<br>" +
+	                  "Felipe Jhone";
 
-	        //enviar(contextoAcao);
-	        //byte[] binarioRelatorio = pdf.toByteArray();
-	        enviarEmailComRelatorio(pdfUnico, "Teste da envio Fios".toCharArray(), "Email Teste", seuEmail);
 
-	        System.out.println("FIM");
+	        
 	        
 	        try {
 				BigDecimal pk = (BigDecimal) registros.getCampo("NUNOTA");
@@ -73,7 +98,8 @@ public class envioemail2 implements AcaoRotinaJava {
 			} catch (Exception ex) {
 				arg0.mostraErro(ex.getMessage());
 				System.out.println("O erro é :"+ex);}
-	        enviarEmailComRelatorio(pdfUnico, "Teste da envio Fios".toCharArray(), "Email Teste", seuEmail);
+	        enviarEmailComRelatorio(pdfUnico, subjetct.toCharArray(), "Fatura Mensal:"+CONTA, seuEmail,CONTA);
+	        arg0.setMensagemRetorno("Email Enviado");
 	        System.out.println("FIM");
 	}
 	
@@ -163,7 +189,7 @@ public class envioemail2 implements AcaoRotinaJava {
 	
 	
 	
-	 public void enviarEmailComRelatorio(byte[] relatorio, char[] mensagem, String assunto, String email) throws Exception {
+	 public void enviarEmailComRelatorio(byte[] relatorio, char[] mensagem, String assunto, String email,String nomearquivo) throws Exception {
 	        BigDecimal codigoFila = BigDecimal.ZERO;
 	        BigDecimal nuAnexoRelatorio = BigDecimal.ZERO;
 	        JapeSession.SessionHandle hnd = null;
@@ -192,7 +218,7 @@ public class envioemail2 implements AcaoRotinaJava {
 	            // Cria anexo do relatorio
 	            entityVO = dwfFacade.getDefaultValueObjectInstance("AnexoMensagem");
 	            dynamicVO = (DynamicVO) entityVO;
-	            dynamicVO.setProperty("NOMEARQUIVO", "relatorio.pdf");
+	            dynamicVO.setProperty("NOMEARQUIVO", nomearquivo+".pdf");
 	            dynamicVO.setProperty("TIPO", "application/pdf");
 	            dynamicVO.setProperty("ANEXO", relatorio);
 	            createEntity = dwfFacade.createEntity("AnexoMensagem", entityVO);

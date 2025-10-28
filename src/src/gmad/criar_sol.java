@@ -324,7 +324,7 @@ public class criar_sol implements AcaoRotinaJava {
 				
 				break;
 			case "4":
-				this.newNota = criaCabecalho(new BigDecimal(10), new BigDecimal(7800), new BigDecimal(158690), new BigDecimal(2060000), new BigDecimal(130), new BigDecimal(10316), BigDecimal.ZERO, BigDecimal.ZERO, "REF PEDIDO DE VENDA CD-->> MATRIZ. VENDEDOR(A) "+ven, "A", "F", new BigDecimal(800000000));
+				this.newNota = criaCabecalho(new BigDecimal(10), new BigDecimal(7800), new BigDecimal(158690), new BigDecimal(2060000), new BigDecimal(130), new BigDecimal(10316), BigDecimal.ZERO, BigDecimal.ZERO, "REF PEDIDO DE VENDA CD-->> ZL. VENDEDOR(A) "+ven, "A", "F", new BigDecimal(800000000));
 				insertnaite(this.newNota, P_prod, this.control, P_Location, "V", qtd, this.VLRVENDA, this.volume, this.VLRVENDA, new BigDecimal(10));
 				mensagem.append(" *Solicitação de Item:* ");
 				mensagem.append("                         ");

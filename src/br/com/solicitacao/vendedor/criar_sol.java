@@ -301,7 +301,7 @@ public class criar_sol implements AcaoRotinaJava {
 		switch (P_tipo) {
 			
 		case "1":
-				this.newNota = criaCabecalho(new BigDecimal(10), new BigDecimal(8000), new BigDecimal(158690), new BigDecimal(2060000), new BigDecimal(130), new BigDecimal(10316), BigDecimal.ZERO, BigDecimal.ZERO, "REF PEDIDO DE VENDA CD-->> MATRIZ. VENDEDOR(A) "+ven, "A", "F", new BigDecimal(800000000));
+				this.newNota = criaCabecalho(new BigDecimal(10), new BigDecimal(7999), new BigDecimal(46513), new BigDecimal(2060000), new BigDecimal(130), new BigDecimal(10316), BigDecimal.ZERO, BigDecimal.ZERO, "REF PEDIDO DE VENDA CD-->> MATRIZ. VENDEDOR(A) "+ven, "A", "F", new BigDecimal(800000000),new BigDecimal(5));
 		        System.out.println("Criando o cabecalho");
 		        System.out.println("INICIO DO ITE");
 		        System.out.println("Valor thisnewnota" + this.newNota);
@@ -324,7 +324,7 @@ public class criar_sol implements AcaoRotinaJava {
 				
 				break;
 			case "4":
-				this.newNota = criaCabecalho(new BigDecimal(10), new BigDecimal(7800), new BigDecimal(158690), new BigDecimal(2060000), new BigDecimal(130), new BigDecimal(10316), BigDecimal.ZERO, BigDecimal.ZERO, "REF PEDIDO DE VENDA CD-->> MATRIZ. VENDEDOR(A) "+ven, "A", "F", new BigDecimal(800000000));
+				this.newNota = criaCabecalho(new BigDecimal(10), new BigDecimal(7800), new BigDecimal(160000), new BigDecimal(2060000), new BigDecimal(130), new BigDecimal(10316), BigDecimal.ZERO, BigDecimal.ZERO, "REF PEDIDO DE VENDA CD-->> ZL. VENDEDOR(A) "+ven, "A", "F", new BigDecimal(800000000),new BigDecimal(11));
 				insertnaite(this.newNota, P_prod, this.control, P_Location, "V", qtd, this.VLRVENDA, this.volume, this.VLRVENDA, new BigDecimal(10));
 				mensagem.append(" *Solicitação de Item:* ");
 				mensagem.append("                         ");
@@ -340,7 +340,7 @@ public class criar_sol implements AcaoRotinaJava {
 				System.out.println("Msg para polichat" + mensagem);
 				break;
 			case "2":
-				this.newNota = criaCabecalho(new BigDecimal(5), new BigDecimal(7996), new BigDecimal(158690), new BigDecimal(2060000), new BigDecimal(130), new BigDecimal(10316), BigDecimal.ZERO, BigDecimal.ZERO, "REF PEDIDO DE VENDA Matriz->> CD. VENDEDOR(A) "+ven, "A", "F", new BigDecimal(800000000));
+				this.newNota = criaCabecalho(new BigDecimal(5), new BigDecimal(7996), new BigDecimal(158690), new BigDecimal(2060000), new BigDecimal(130), new BigDecimal(10316), BigDecimal.ZERO, BigDecimal.ZERO, "REF PEDIDO DE VENDA Matriz->> CD. VENDEDOR(A) "+ven, "A", "F", new BigDecimal(800000000),new BigDecimal(10));
 				insertnaite(this.newNota, P_prod, this.control, P_Location, "V", qtd, this.VLRVENDA, this.volume, this.VLRVENDA, new BigDecimal(5));
 				mensagem.append("*Solicitação de Item* ");
 				mensagem.append("                         ");
@@ -357,7 +357,7 @@ public class criar_sol implements AcaoRotinaJava {
 				break;
 
 			case "6":
-				this.newNota = criaCabecalho(new BigDecimal(5), new BigDecimal(8001), new BigDecimal(158690), new BigDecimal(2060000), new BigDecimal(130), new BigDecimal(10316), BigDecimal.ZERO, BigDecimal.ZERO, "REF PEDIDO DE VENDA MTZ-->> ZL. VENDEDOR(A) "+ven, "A", "F", new BigDecimal(800000000));
+				this.newNota = criaCabecalho(new BigDecimal(5), new BigDecimal(8001), new BigDecimal(160000), new BigDecimal(2060000), new BigDecimal(130), new BigDecimal(10316), BigDecimal.ZERO, BigDecimal.ZERO, "REF PEDIDO DE VENDA MTZ-->> ZL. VENDEDOR(A) "+ven, "A", "F", new BigDecimal(800000000),new BigDecimal(11));
 				insertnaite(this.newNota, P_prod, this.control, P_Location, "V", qtd, this.VLRVENDA, this.volume, this.VLRVENDA, new BigDecimal(5));
 				mensagem.append("*Solicitação de Item*");
 				mensagem.append("                         ");
@@ -375,7 +375,7 @@ public class criar_sol implements AcaoRotinaJava {
 				break;
 
 			case "5":
-				this.newNota = criaCabecalho(new BigDecimal(11), new BigDecimal(8002), new BigDecimal(158690), new BigDecimal(2060000), new BigDecimal(130), new BigDecimal(10316), BigDecimal.ZERO, BigDecimal.ZERO, "REF PEDIDO DE VENDA ZL-->> CD. VENDEDOR(A) "+ven, "A", "F", new BigDecimal(800000000));
+				this.newNota = criaCabecalho(new BigDecimal(11), new BigDecimal(8002), new BigDecimal(158690), new BigDecimal(2060000), new BigDecimal(130), new BigDecimal(10316), BigDecimal.ZERO, BigDecimal.ZERO, "REF PEDIDO DE VENDA ZL-->> CD. VENDEDOR(A) "+ven, "A", "F", new BigDecimal(800000000),new BigDecimal(10));
 				insertnaite(this.newNota, P_prod, this.control, P_Location, "V", qtd, this.VLRVENDA, this.volume, this.VLRVENDA, new BigDecimal(11));
 				mensagem.append("*Solicitação de Item:* ");
 				mensagem.append("                         ");
@@ -392,7 +392,7 @@ public class criar_sol implements AcaoRotinaJava {
 
 				break;
 			case "7":
-				this.newNota = criaCabecalho(new BigDecimal(11), new BigDecimal(8003), new BigDecimal(158690), new BigDecimal(2060000), new BigDecimal(130), new BigDecimal(10316), BigDecimal.ZERO, BigDecimal.ZERO, "REF PEDIDO DE VENDA ZL-->> MATRIZ. VENDEDOR(A) "+ven, "A", "F", new BigDecimal(800000000));
+				this.newNota = criaCabecalho(new BigDecimal(11), new BigDecimal(8003), new BigDecimal(46513), new BigDecimal(2060000), new BigDecimal(130), new BigDecimal(10316), BigDecimal.ZERO, BigDecimal.ZERO, "REF PEDIDO DE VENDA ZL-->> MATRIZ. VENDEDOR(A) "+ven, "A", "F", new BigDecimal(800000000),new BigDecimal(5));
 				insertnaite(this.newNota, P_prod, this.control, P_Location, "V", qtd, this.VLRVENDA, this.volume, this.VLRVENDA, new BigDecimal(11));
 				mensagem.append("*Solicitação de Item:* ");
 				mensagem.append("                         ");
@@ -409,7 +409,7 @@ public class criar_sol implements AcaoRotinaJava {
 				
 				break;
 			case "8":
-				this.newNota = criaCabecalho(new BigDecimal(9), new BigDecimal(9401), new BigDecimal(158690), new BigDecimal(2060000), new BigDecimal(130), new BigDecimal(10316), BigDecimal.ZERO, BigDecimal.ZERO, "REF PEDIDO DE VENDA IND-->> ZL. VENDEDOR(A) "+ven, "A", "F", new BigDecimal(800000000));
+				this.newNota = criaCabecalho(new BigDecimal(9), new BigDecimal(9404), new BigDecimal(65182), new BigDecimal(2060000), new BigDecimal(130), new BigDecimal(10316), BigDecimal.ZERO, BigDecimal.ZERO, "REF PEDIDO DE VENDA IND-->> ZL. VENDEDOR(A) "+ven, "A", "F", new BigDecimal(800000000),new BigDecimal(9));
 				insertnaite(this.newNota, P_prod, this.control, P_Location, "V", qtd, this.VLRVENDA, this.volume, this.VLRVENDA, new BigDecimal(9));
 				mensagem.append(" *Solicitação de Item:*  ");
 				mensagem.append("                         ");
@@ -426,7 +426,7 @@ public class criar_sol implements AcaoRotinaJava {
 				break;
 
 			case "3":
-				this.newNota = criaCabecalho(new BigDecimal(9), new BigDecimal(9401), new BigDecimal(158690), new BigDecimal(2060000), new BigDecimal(130), new BigDecimal(10316), BigDecimal.ZERO, BigDecimal.ZERO, "REF PEDIDO DE VENDA IND-->> MATRIZ. VENDEDOR(A) "+ven, "A", "F", new BigDecimal(800000000));
+				this.newNota = criaCabecalho(new BigDecimal(9), new BigDecimal(9401), new BigDecimal(65182), new BigDecimal(2060000), new BigDecimal(130), new BigDecimal(10316), BigDecimal.ZERO, BigDecimal.ZERO, "REF PEDIDO DE VENDA IND-->> MATRIZ. VENDEDOR(A) "+ven, "A", "F", new BigDecimal(800000000),new BigDecimal(9));
 				System.out.println("ANTES DO ITE");
 				insertnaite(this.newNota, P_prod, this.control, P_Location, "V", qtd, this.VLRVENDA, this.volume, this.VLRVENDA, new BigDecimal(9));
 				System.out.println("INICIO DO ITE");
@@ -445,7 +445,7 @@ public class criar_sol implements AcaoRotinaJava {
 				break;
 				
 			case "9":
-				this.newNota = criaCabecalho(new BigDecimal(9), new BigDecimal(9401), new BigDecimal(158690), new BigDecimal(2060000), new BigDecimal(130), new BigDecimal(10316), BigDecimal.ZERO, BigDecimal.ZERO, "REF PEDIDO DE VENDA MATRIZ-->> CD. VENDEDOR(A) "+ven, "A", "F", new BigDecimal(800000000));
+				this.newNota = criaCabecalho(new BigDecimal(9), new BigDecimal(9405), new BigDecimal(65182), new BigDecimal(2060000), new BigDecimal(130), new BigDecimal(10316), BigDecimal.ZERO, BigDecimal.ZERO, "REF PEDIDO DE VENDA MATRIZ-->> CD. VENDEDOR(A) "+ven, "A", "F", new BigDecimal(800000000),new BigDecimal(9));
 				System.out.println("ANTES DO ITE");
 				insertnaite(this.newNota, P_prod, this.control, P_Location, "V", qtd, this.VLRVENDA, this.volume, this.VLRVENDA, new BigDecimal(9));
 				System.out.println("INICIO DO ITE");
@@ -465,7 +465,7 @@ public class criar_sol implements AcaoRotinaJava {
 				
 				
 			case "10":
-				this.newNota = criaCabecalho(new BigDecimal(9), new BigDecimal(9401), new BigDecimal(158690), new BigDecimal(2060000), new BigDecimal(130), new BigDecimal(10316), BigDecimal.ZERO, BigDecimal.ZERO, "REF PEDIDO DE VENDA ZL-->> CD. VENDEDOR(A) "+ven, "A", "F", new BigDecimal(800000000));
+				this.newNota = criaCabecalho(new BigDecimal(9), new BigDecimal(9407), new BigDecimal(65182), new BigDecimal(2060000), new BigDecimal(130), new BigDecimal(10316), BigDecimal.ZERO, BigDecimal.ZERO, "REF PEDIDO DE VENDA ZL-->> CD. VENDEDOR(A) "+ven, "A", "F", new BigDecimal(800000000),new BigDecimal(9));
 				System.out.println("ANTES DO ITE");
 				insertnaite(this.newNota, P_prod, this.control, P_Location, "V", qtd, this.VLRVENDA, this.volume, this.VLRVENDA, new BigDecimal(9));
 				System.out.println("INICIO DO ITE");
@@ -485,7 +485,7 @@ public class criar_sol implements AcaoRotinaJava {
 				break;
 				
 			case "11":
-				this.newNota = criaCabecalho(new BigDecimal(9), new BigDecimal(9401), new BigDecimal(158690), new BigDecimal(2060000), new BigDecimal(130), new BigDecimal(10316), BigDecimal.ZERO, BigDecimal.ZERO, "REF PEDIDO DE VENDA ZL-->> MTZ. VENDEDOR(A) "+ven, "A", "F", new BigDecimal(800000000));
+				this.newNota = criaCabecalho(new BigDecimal(9), new BigDecimal(9408), new BigDecimal(65182), new BigDecimal(2060000), new BigDecimal(130), new BigDecimal(10316), BigDecimal.ZERO, BigDecimal.ZERO, "REF PEDIDO DE VENDA ZL-->> MTZ. VENDEDOR(A) "+ven, "A", "F", new BigDecimal(800000000),new BigDecimal(9));
 				System.out.println("ANTES DO ITE");
 				insertnaite(this.newNota, P_prod, this.control, P_Location, "V", qtd, this.VLRVENDA, this.volume, this.VLRVENDA, new BigDecimal(9));
 				System.out.println("INICIO DO ITE");
@@ -505,7 +505,7 @@ public class criar_sol implements AcaoRotinaJava {
 				break;
 				
 			case "12":
-				this.newNota = criaCabecalho(new BigDecimal(9), new BigDecimal(9401), new BigDecimal(158690), new BigDecimal(2060000), new BigDecimal(130), new BigDecimal(10316), BigDecimal.ZERO, BigDecimal.ZERO, "REF PEDIDO DE VENDA MTZ-->> ZL. VENDEDOR(A) "+ven, "A", "F", new BigDecimal(800000000));
+				this.newNota = criaCabecalho(new BigDecimal(9), new BigDecimal(9406), new BigDecimal(65182), new BigDecimal(2060000), new BigDecimal(130), new BigDecimal(10316), BigDecimal.ZERO, BigDecimal.ZERO, "REF PEDIDO DE VENDA MTZ-->> ZL. VENDEDOR(A) "+ven, "A", "F", new BigDecimal(800000000),new BigDecimal(9));
 				System.out.println("ANTES DO ITE");
 				insertnaite(this.newNota, P_prod, this.control, P_Location, "V", qtd, this.VLRVENDA, this.volume, this.VLRVENDA, new BigDecimal(9));
 				System.out.println("INICIO DO ITE");
@@ -575,7 +575,7 @@ public class criar_sol implements AcaoRotinaJava {
 	}
 
 	@SuppressWarnings("null")
-	public BigDecimal criaCabecalho(BigDecimal empresa, BigDecimal tipoOperacao, BigDecimal parceiro, BigDecimal natureza, BigDecimal codTipVenda, BigDecimal codCenCus, BigDecimal modeloNota, BigDecimal codUsu, String Obs, String Statusnota, String Fob, BigDecimal codproj) throws Exception {
+	public BigDecimal criaCabecalho(BigDecimal empresa, BigDecimal tipoOperacao, BigDecimal parceiro, BigDecimal natureza, BigDecimal codTipVenda, BigDecimal codCenCus, BigDecimal modeloNota, BigDecimal codUsu, String Obs, String Statusnota, String Fob, BigDecimal codproj,BigDecimal empneg) throws Exception {
 
 		EntityFacade dwfFacade = EntityFacadeFactory.getDWFFacade();
 		EntityVO padraoNPVO = null;
@@ -606,6 +606,7 @@ public class criar_sol implements AcaoRotinaJava {
 		cabecalhoVO.setProperty("CODPROJ", codproj);
 		cabecalhoVO.setProperty("CODVEND", codvend);
 		cabecalhoVO.setProperty("AD_ENTREGA", "U");
+		cabecalhoVO.setProperty("CODEMPNEGOC",empneg );
 		dwfFacade.createEntity("CabecalhoNota", (EntityVO) cabecalhoVO);
 		nunotaProd = cabecalhoVO.asBigDecimal("NUNOTA");
 

@@ -131,7 +131,7 @@ public class Autosol implements AcaoRotinaJava {
 		try {
 
 			sql.appendSql(" SELECT DISTINCT ");
-			sql.appendSql(" ORIGEM,CODTIPOPER ");
+			sql.appendSql(" ORIGEM,CODTIPOPER, DESTINO ");
 			sql.appendSql(" FROM ");
 			sql.appendSql(" AD_ITESYSTOCK ");
 			sql.appendSql(" WHERE ");
@@ -143,9 +143,10 @@ public class Autosol implements AcaoRotinaJava {
 				BigDecimal oper = new BigDecimal(operacao);
 				String origem = rset.getString("ORIGEM");
 				BigDecimal orig = new BigDecimal(origem);
+				BigDecimal dest = rset.getBigDecimal("DESTINO");
 				BigDecimal Nota = criaCabecalho(orig, oper, new BigDecimal(158690), new BigDecimal(2060000),
 						new BigDecimal(130), new BigDecimal(10316), BigDecimal.ZERO, BigDecimal.ZERO, "A", "F",
-						new BigDecimal(800000000));
+						new BigDecimal(800000000),dest);
 				
 				if (notasGeradas.length() > 0) {
 		            notasGeradas.append(", ");
@@ -329,7 +330,7 @@ public class Autosol implements AcaoRotinaJava {
 	@SuppressWarnings("null")
 	public BigDecimal criaCabecalho(BigDecimal empresa, BigDecimal tipoOperacao, BigDecimal parceiro,
 			BigDecimal natureza, BigDecimal codTipVenda, BigDecimal codCenCus, BigDecimal modeloNota, BigDecimal codUsu,
-			String Statusnota, String Fob, BigDecimal codproj) throws Exception {
+			String Statusnota, String Fob, BigDecimal codproj, BigDecimal empneg) throws Exception {
 
 		EntityFacade dwfFacade = EntityFacadeFactory.getDWFFacade();
 		EntityVO padraoNPVO = null;
@@ -359,6 +360,7 @@ public class Autosol implements AcaoRotinaJava {
 		cabecalhoVO.setProperty("STATUSNOTA", Statusnota);
 		cabecalhoVO.setProperty("CIF_FOB", Fob);
 		cabecalhoVO.setProperty("CODPROJ", codproj);
+		cabecalhoVO.setProperty("CODEMPNEGOC", empneg);
 		dwfFacade.createEntity("CabecalhoNota", (EntityVO) cabecalhoVO);
 		nunotaProd = cabecalhoVO.asBigDecimal("NUNOTA");
 

@@ -216,7 +216,7 @@ public class cria_sol_mov_int  implements AcaoRotinaJava {
 			case "2":
 				this.newNota = criaCabecalho(new BigDecimal(5), new BigDecimal(226), Parc_gas, new BigDecimal(800000000), new BigDecimal(130), new BigDecimal(10716), BigDecimal.ZERO, codusu, P_Observacao, "A", "F", new BigDecimal(800000000),new BigDecimal(10320000),"J",Valor_Unitario);
 		        
-				insertnaite(this.newNota, new BigDecimal(1),new BigDecimal(5), new BigDecimal(19184), new BigDecimal(95000000),"C", codusu,
+				insertnaite(this.newNota, new BigDecimal(1),new BigDecimal(5), new BigDecimal(19184), new BigDecimal(62030300),"C", codusu,
 		        		new BigDecimal(1),Valor_Unitario ,Valor_Unitario,"LI", new BigDecimal(0),"N","S","A","S");
 				criarSolicitacaoDeLiberacao2(new Integer(18));	
 	

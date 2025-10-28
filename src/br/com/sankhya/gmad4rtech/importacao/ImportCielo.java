@@ -61,7 +61,7 @@ public class ImportCielo implements AcaoRotinaJava {
                 System.out.println("Linha inicial"+line);
                 String[] tokens = line.split(";");
 
-                if (tokens.length >= 48 && tokens.length <= 57) {
+                if (tokens.length >= 48 && tokens.length <= 58) {
 	                    nlinha++;
 	                    String dtpag = tokens[0];
 	                    String codestab = tokens[2];
@@ -83,7 +83,7 @@ public class ImportCielo implements AcaoRotinaJava {
 	                        // Mantém o valor original se não for nenhum dos códigos
 	                        break;
 	                }*/
-	                    String nrocart = tokens[21];
+	                    String nrocart = tokens[22];
 	                    String codaut = tokens[15];
 	                    String nsu = tokens[16];
 	                    System.out.println("vlrbruto_cielo"+tokens[7].toString());
@@ -109,13 +109,13 @@ public class ImportCielo implements AcaoRotinaJava {
 	                    System.out.println("vlrtaxa"+vlrtaxa);
 	                    String dtvenda = tokens[11];
 	                    String codvenda = tokens[17];
-	                    String numparcela = tokens[26];
-	                    String numtotparcela = tokens[27];
-	                    String numequip = tokens[31];
-	                    String perctaxa = tokens[35].replace(",", ".").replace("\"", "").replace("%", "");
-	                    String codbco = tokens[48];
-	                    String codage = tokens[49];
-	                    String codctabcoo = tokens[50];
+	                    String numparcela = tokens[27];
+	                    String numtotparcela = tokens[28];
+	                    String numequip = tokens[32];
+	                    String perctaxa = tokens[36].replace(",", ".").replace("\"", "").replace("%", "");
+	                    String codbco = tokens[49];
+	                    String codage = tokens[50];
+	                    String codctabcoo = tokens[51];
 						String formpag = tokens[4];
 						
 						System.out.println("dtpag cielo"+dtpag);
